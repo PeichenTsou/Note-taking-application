@@ -17,13 +17,13 @@ input {
 }
 
 .add {
-  color: #fff;
-  background-color: black;
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px;
-  font-weight: bold;
-  border-radius: 5px;
+  /* color: #fff;
+  background-color: black; */
+  /* width: 100%; */
+  /* margin-top: 20px; */
+  /* padding: 10px; */
+  /* font-weight: bold; */
+  /* border-radius: 5px; */
 }
 
 .list {
@@ -41,10 +41,10 @@ input {
 }
 
 .remove {
-  border: 0;
-  background-color: rgb(212, 101, 101);
-  color: #fff;
-  padding: 10px;
-  font-weight: bold;
-  border-radius: 5px;
+  /* border: 0; */
+  /* background-color: rgb(212, 101, 101); */
+  /* color: #fff; */
+  /* padding: 10px; */
+  /* font-weight: bold; */
+  /* border-radius: 5px; */
 }

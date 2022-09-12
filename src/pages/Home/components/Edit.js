@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { v4 } from "uuid";
+import Button from '@material-ui/core/Button';
+import AddIcon from '@material-ui/icons/Add';
+
 
 const Edit = ({ add, submittingStatus }) => {
   const [note, setNote] = useState("");
@@ -45,9 +48,21 @@ const Edit = ({ add, submittingStatus }) => {
       <input type="date" value={date} onChange={dateChange} />
       <p>Time: </p>
       <input type="time" value={time} onChange={timeChange} />
-      <button onClick={addItem} className="add">
+      <Button 
+        startIcon={<AddIcon/ >}
+        size="default" 
+        style={{
+          marginTop: 20,
+          padding: 10,
+          fontWeight: 'bold',
+          width: '100%'
+        }}
+        variant="contained" 
+        color="primary" 
+        onClick={addItem} 
+        className="add">
         Add
-      </button>
+      </Button>
     </div>
   );
 };
